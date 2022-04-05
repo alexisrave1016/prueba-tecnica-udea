@@ -1,6 +1,11 @@
 
 body{
-
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1649186638/udea/fondo_pm2yy4.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     margin: 0;
 }
@@ -9,6 +14,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    
     
 }
 .menu{
@@ -33,7 +39,7 @@ body{
     height: 35px;
 }
 .selectores_{
-    color: white;
+    color: #dee2e6;
     margin-right: 10px;
     font-size: 12px;
 }
@@ -46,15 +52,23 @@ body{
     width: 100%;
     
 }
+.video{
+    width:"400"; 
+    height:"250";
+    
+}
 .footer{
     width: 100%;
 }
 .articulos{
-    width: 100%;
-    /* display: flex; */
+    width: 70%;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
    
+
+
    
-    /* justify-content: space-evenly */
 }
 .calendario{
     display: flex;
@@ -64,4 +78,27 @@ body{
 
 .selector_img,.selectores_menu:hover{
     cursor:pointer;
+}
+
+.texto{
+    font-size: 12px;
+    font-weight: 400;
+    color: #054973;
+}
+
+.titulo{
+    font-size: 20px;
+}
+.lita{
+    margin-left: 30px;
+}
+
+.imgCalendario{
+    width: 270px;
+    margin: 10px;
+   
+}
+
+.imgCalendario:hover{
+    width: 300px;
 }
